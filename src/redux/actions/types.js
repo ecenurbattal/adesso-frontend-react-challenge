@@ -1,0 +1,15 @@
+export const GET_UNITS = "GET_UNITS";
+export const SET_UNITS = "SET_UNITS";
+export const GET_UNIT_DETAIL ="GET_UNIT_DETAIL";
+export const SET_UNIT_DETAIL = "SET_UNIT_DETAIL";
+
+
+export const FILTER_BY_COST = "FILTER_BY_COST";
+export const FILTER_BY_AGE = "FILTER_BY_AGE";
+export const FILTER_BOTH = "FILTER_BOTH";
+
+export const CHANGE_FILTER_VALUES = "CHANGE_FILTER_VALUES";
+export const SET_FILTER_VALUES = "SET_FILTER_VALUES";
+
+export const CHANGE_HEADER_TITLE = "CHANGE_HEADER_TITLE";
+export const SET_HEADER_TITLE = "SET_HEADER_TITLE";

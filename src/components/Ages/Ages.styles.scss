@@ -1,0 +1,38 @@
+$passero_one:'Passero One, cursive';
+
+.ageswrapper {
+    display:flex;
+    flex-direction: column;
+    margin-left:3.5em;
+}
+
+.ageboxwrapper {
+    width:min-content;
+    display:flex;
+    background-color: #34495e;
+}
+
+.age {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor:pointer;
+    border:1px solid white;
+    font-family: $passero_one;
+    margin: 0;
+
+    &:hover {
+        background-color: rgba(255,255,255,0.3);
+    }  
+}
+
+.active {
+    background-color: #8e44ad;
+}
+
+.agestitle {
+    color:white;
+    font-size: 27px;
+    font-family: $passero_one;
+    font-weight: 600;
+}

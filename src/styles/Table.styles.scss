@@ -1,0 +1,31 @@
+$comic_sans: "Comic Sans MS", "Comic Sans", cursive;
+
+table {
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+    width: 90%;
+    margin:auto;
+    margin-top:30px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    font-family: $comic_sans;
+}
+
+.tabletitle {
+    font-size: 24px;
+    font-weight: 800;
+    color:white;
+}
+
+.tableitem {
+    cursor:pointer;
+}
+  
+  tr:nth-child(even) {
+    background-color: #8e44ad;
+  }

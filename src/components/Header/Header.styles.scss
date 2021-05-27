@@ -1,0 +1,39 @@
+$passero_one:'Passero One, cursive';
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+}
+
+.menu {
+    list-style:none;
+    margin-left: auto;
+
+    li {
+        display: inline;
+        padding: 3px 20px 0 0 ;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-family: $passero_one;
+            font-size: 30px;
+        }
+    }
+}
+
+.title {
+    color:#fff;
+    font-family: $passero_one;
+    font-size:60px;
+    margin-left: auto;
+    padding:50px 0 0 200px;
+    font-weight: 700;
+}
